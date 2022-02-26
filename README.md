@@ -1,11 +1,11 @@
-Hosting a static webpage with Amazon AWS S3 & AWS Cloudfront
+Hosting a static webpage with Amazon AWS S3 & AWS Cloudfront.
 Step 1:
 Create a S3 bucket and Under “Block Public Access settings” uncheck “Block all public access”.
 
 Step 2:
-Upload the HTML/css file to S3 bucket
+Upload the HTML/css file to S3 bucket.
 Step 3:
-Click “Close” and reopen the s3 bucket to navigate to the “Properties” tab
+Click “Close” and reopen the s3 bucket to navigate to the “Properties” tab.
 
 Step 4:
 Scroll down until you locate the “Static website hosting” section. Select Edit, then click Enable. This will bring you into the menu where you will be able to type your index document, which is what will be shown as the home page. I updated this file with the web_content file that I uploaded. Click Save Changes.
